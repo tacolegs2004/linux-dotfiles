@@ -17,5 +17,6 @@ fpath=(${ASDF_DIR}/completions $fpath)
 # initialise completions with ZSH's compinit
 autoload -Uz compinit && compinit
 
+fastfetch
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
