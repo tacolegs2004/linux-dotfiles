@@ -1,0 +1,48 @@
+# theme = dark:base16-catppuccin-mocha,light:base16-catppuccin-frappe
+background = #1E1E2E
+background-opacity = 0.7
+cursor-color = #F5E0DC
+font-family = CaskaydiaCove Nerd Font
+font-family-bold = auto
+font-family-bold-italic = auto
+font-family-italic = auto
+font-size = 16.0
+foreground = #CDD6F4
+palette = 0=#45475A
+palette = 10=#A6E3A1
+palette = 11=#F9E2AF
+palette = 12=#89B4FA
+palette = 13=#F5C2E7
+palette = 14=#94E2D5
+palette = 15=#A6ADC8
+palette = 1=#F38BA8
+palette = 2=#A6E3A1
+palette = 3=#F9E2AF
+palette = 4=#89B4FA
+palette = 5=#F5C2E7
+palette = 6=#94E2D5
+palette = 7=#BAC2DE
+palette = 8=#585B70
+palette = 9=#F38BA8
+scrollback-limit = 2000
+selection-background = #F5E0DC
+selection-foreground = #1E1E2E
+background-opacity = 0.85
+background-blur-radius = 10
+unfocused-split-opacity = 0.85
+mouse-hide-while-typing = true
+window-decoration = false
+macos-titlebar-style=hidden
+keybind = super+r=reload_config
+# splits
+keybind = alt+j=goto_split:bottom
+keybind = alt+k=goto_split:top
+keybind = alt+h=goto_split:left
+keybind = alt+l=goto_split:right
+keybind = alt+shift+k=new_split:up
+keybind = alt+shift+j=new_split:down
+keybind = alt+shift+h=new_split:left
+keybind = alt+shift+l=new_split:right
+keybind = super+z=toggle_split_zoom
+keybind = super+e=equalize_splits
+keybind = super+x=close_surface
